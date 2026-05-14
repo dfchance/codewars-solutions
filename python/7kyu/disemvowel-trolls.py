@@ -1,7 +1,7 @@
-
 # Kata: Disemvowel Trolls
 # Difficulty: 7 kyu
-#
+# URL: https://www.codewars.com/kata/52fba66badcd10859f00097e
+# 
 # Description: 
 # Remove all vowels from the given string and return the result. 
 #

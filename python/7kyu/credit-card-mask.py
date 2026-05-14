@@ -1,6 +1,7 @@
 # Kata: Credit Card Mask
 # Difficulty: 7 kyu
-#
+# URL: https://www.codewars.com/kata/5412509bd436bd33920011bc
+# 
 # Description: 
 # Mask all but the last four digits of a passed string.
 #

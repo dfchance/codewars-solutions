@@ -1,5 +1,6 @@
 # Kata: Categorize New Member
 # Difficulty: 7 kyu
+# URL: https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
 #
 # Description: 
 # Categorize new members of a croquet club as "Open" or "Senior".  To be a senior, a member must be at least 55 years old and have a handicap greater than 7.

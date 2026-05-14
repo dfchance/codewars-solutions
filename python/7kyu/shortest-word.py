@@ -1,5 +1,6 @@
 # Kata: Shortest Word
 # Difficulty: 7 kyu
+# URL: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
 #
 # Description: 
 # Find the shortest word in a given string and return its length.
