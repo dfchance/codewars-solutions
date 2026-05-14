@@ -1,6 +1,7 @@
 # Kata: Bit Counting
 # Difficulty: 6 kyu
-#
+# URL: https://www.codewars.com/kata/526571aae218b8ee490006f4
+# 
 # Description: 
 # Write a function that takes an integer as input and returns the number of '1' bits in its binary representation.  
 #

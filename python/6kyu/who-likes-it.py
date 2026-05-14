@@ -1,6 +1,7 @@
 # Kata: Who Likes It?
 # Difficulty: 6 kyu
-#
+# URL: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+# 
 # Description: 
 # Take an array of names an dreturn a string containing the names and the phrase "likes this." 
 #

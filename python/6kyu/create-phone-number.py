@@ -1,6 +1,7 @@
 # Kata: Create Phone Number
 # Difficulty: 6 kyu
-#
+# URL: https://www.codewars.com/kata/525f50e3b73515a6db000b83
+# 
 # Description: 
 # Take an array of digits and return them properly formatted as a phone number, following the correct order of the array.   
 #
