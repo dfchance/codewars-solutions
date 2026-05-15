@@ -4,7 +4,6 @@
 # 
 # Description: 
 # Take an array of digits and return them properly formatted as a phone number, following the correct order of the array.   
-# 
 
 # Original Solution from May 11, 2026
 # Approach:
