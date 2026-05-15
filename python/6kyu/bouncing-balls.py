@@ -6,7 +6,7 @@
 # Given the parameters height, window (height) and bounce (factor), calculate the number of times a ball dropped from a certain height will be seen bouncing up and down before it ceases.  
 #
 # Approach:
-# Check length of array and return the appropriate concatenated string using if statements. 
+# Tally the number of times the height of the ball exceeds the window height after being multiplied by the bounce factor.  
 
 def bouncing_ball(height, bounce, window):
     # Check that parameters pass requirements
