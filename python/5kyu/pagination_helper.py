@@ -1,6 +1,6 @@
-# Kata: Directions Reduction
+# Kata: Pagination Helper
 # Difficulty: 5 kyu
-# URL: https://www.codewars.com/kata/550f22f4d758534c1100025a
+# URL: https://www.codewars.com/kata/515bb423de843ea99400000a
 # 
 # Description: 
 # Create a class designed to take in an array of values and an integer indicating how many items will be allowed per page.  
