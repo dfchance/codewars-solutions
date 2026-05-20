@@ -4,14 +4,12 @@
 # 
 # Description: 
 # Remove all vowels from the given string and return the result. 
-#
+
+# Original Solution from 
 # Approach:
 # Iterate through the string, checking each character.  If it is a vowel, remove it. 
-
-
 def disemvowel(string_):
     vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
-    no_vowels = ""
     n = 0
     while n < len(string_): 
         ch = string_[n]
@@ -24,3 +22,14 @@ def disemvowel(string_):
                 
     return string_
 
+# Refactored Solution from May 19, 2026
+# Approach: 
+# Iterate through each letter in the string and create a new string with only consonants. 
+def disemvowel(string_):
+    vowels = "aeiouAEIOU"
+    no_vowels = ""
+    for l in string_: 
+        if l not in vowels:
+            no_vowels += l
+
+    return no_vowels
