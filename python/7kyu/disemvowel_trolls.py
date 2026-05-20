@@ -5,7 +5,7 @@
 # Description: 
 # Remove all vowels from the given string and return the result. 
 
-# Original Solution from 
+# Original Solution from May 12, 2026
 # Approach:
 # Iterate through the string, checking each character.  If it is a vowel, remove it. 
 def disemvowel(string_):
