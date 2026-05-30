@@ -1,4 +1,4 @@
-# Kata: String Ends With? 
+# Kata: You're A Square! 
 # Difficulty: 7 kyu
 # URL: https://www.codewars.com/kata/54c27a33fb7da0db0100040e/
 #
