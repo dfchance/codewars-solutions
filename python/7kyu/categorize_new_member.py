@@ -3,11 +3,11 @@
 # URL: https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa
 #
 # Description: 
-# Categorize new members of a croquet club as "Open" or "Senior".  To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
-#
+# Categorize a list of pairs representing new members of a croquet club as "Open" or "Senior".  To be a senior, a member must be at least 55 years old and have a handicap greater than 7.
+
+# Original Solution from May 13, 2026
 # Approach:
 # Iterate through the data checking each members age and handicap.  Append either "Open" or "Senior" to a list of members based on their data. 
-
 def open_or_senior(data):
     open = "Open"
     senior = "Senior"
@@ -23,3 +23,9 @@ def open_or_senior(data):
                 members.append(open)
         n += 1
     return members
+
+# Refactored Solution from May 30, 2026
+# Approach:
+# Use list comprehension to correctly categorize members based on their age and handicap. 
+def open_or_senior(data):
+    return ["Senior" if age >= 55 and handicap > 7 else "Open" for age, handicap in data]

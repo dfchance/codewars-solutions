@@ -4,10 +4,10 @@
 #
 # Description: 
 # Find the shortest word in a given string and return its length.
-#
+
+# Original Solution from May 13, 2026
 # Approach:
 # Iterate through the string, checking each word.  If it shorter than the previously identified shortest word, save the value. 
-
 def find_short(string):
     # Split the string so it can be evaluated word by word
     string = string.split()
@@ -31,3 +31,9 @@ def find_short(string):
             l = len(word)
         n += 1
     return l
+
+# Refactored Solution from May 19, 2026
+# Approach: 
+# Return the minimum length of all the words in the split string. 
+def find_short(string):    
+    return min(len(w) for w in string.split())
