@@ -5,6 +5,8 @@
 # Description: 
 # Take an a camel case string and return the string with spaces between the words.  
 #
+
+# Original Solution from May 13, 2026
 # Approach:
 # Iterate through the word and insert spaces when uppercase letters are found. 
 
@@ -19,3 +21,14 @@ def solution(string):
         n += 1
         print("outside if: " + string[n])
     return string    
+
+# Refactored Solution from June 4, 2026
+# Approach:
+# Use a for loop to create a new string inserting spaces ahead of uppercase letters. 
+def solution(string):
+    str = ""
+    for l in string:
+        if l.isupper():
+            str += " "
+        str += l
+    return str
